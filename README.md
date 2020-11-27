@@ -62,9 +62,11 @@ https://portal.azure.com/
 https://portal.azure.com/
 ```
 > Na parte superior da tela procure pelo ícone "Subscriptions" ou use a barra de pesquisa para busca-lo
+
 ![menu de active directory](img/home-portal-azure2.png)
 
 > Haverá uma lista de subscrições, selecione a desejada (provavelmente se chama paga por uso), aproveite e anote o "Subscription ID", que será usado mais a frente.
+
 ![menu de active directory](img/subscriptions-home.png)
 
 > No menu esquerdo selecione "Access Control IAM"
@@ -94,15 +96,19 @@ https://portal.azure.com/
 https://portal.azure.com/
 ```
 > Na parte superior da tela procure pelo ícone "All Resources" ou use a barra de pesquisa para busca-lo
+
 ![menu de active directory](img/home-portal-azure3.png)
 
 > Veja o resource de predição desejado, anote seu resource group e clique para ver mais detalhes
+
 ![menu de active directory](img/resources-list.png)
 
 > No menu esquerdo navegue para "Keys and endpoints"
+
 ![menu de active directory](img/resource-menu.png)
 
 > Clique em "show keys" e anote o valor de uma delas. 
+
 ![menu de active directory](img/show-keys.png)
 
 > Agora que já possuímos todos os valores anotados, nos restar preencher eles dentro de sua rede social Colmeia.
@@ -110,11 +116,14 @@ https://portal.azure.com/
 ## Preencher dados na aplicação da Colmeia
 
 > Navegue até o provider do tipo Luis, você verá alguns campos novos em vazio, preencha eles com os valores anotados previamente, salve o provider.
+
 ![menu de active directory](img/fields.png)
 
 > Após salvar, volte a editar o provider Luis, e verá um botão disponível "escolher resource", clique nele
+
 ![menu de active directory](img/choose-resource.png)
 
 > Um diálogo será aberto, com uma listagem de resources, selecione o resource desejado e salve novamente o provider Luis.
+
 ![menu de active directory](img/resource-dialog.png)
 
