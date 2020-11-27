@@ -4,6 +4,7 @@
 passos:
 - [Criar uma aplicação no Active Directory](#criando-uma-aplicação)
 - [Garantir role de subscriptions para aplicação](#garantir-role-de-subscriptions-para-aplicação)
+- [Coletar subscription key e resource group](#coletar-subscription-key-e-resource-group)
 - [Preencher dados na aplicação da Colmeia](#preencher-dados-na-aplicação-da-colmeia)
 
 
@@ -56,7 +57,7 @@ https://portal.azure.com/
 
 ## Garantir role de subscriptions para aplicação
 
-> Precisamos conceber autorização de alterar subscriptions a aplicação, para isso vá para
+> Precisamos conceder autorização de alterar subscriptions a aplicação, para isso vá para
 ```
 https://portal.azure.com/
 ```
@@ -86,7 +87,7 @@ https://portal.azure.com/
 
 ![menu de active directory](img/role-add-dialog.png)
 
-## Coletando subscription key e resource group
+## Coletar subscription key e resource group
 
 > Precisamos copiar a subscription key e o resource group, para isso vá para
 ```
